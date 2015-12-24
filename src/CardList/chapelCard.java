@@ -6,7 +6,7 @@ public class chapelCard extends Cards
 
 	public chapelCard()
 	{
-	super(2,0,0);
+	super(0,2,0,0);
 	description = "Trash up to 4 cards from your hand.";
 		
 	}

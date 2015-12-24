@@ -6,7 +6,7 @@ public class cellarCard extends Cards
 
 	public cellarCard()
 	{
-	super(2,1,0);
+	super(2,1,0,0);
 	description = "Discard any number of cards."
 				+ "/n+1 Card per card discarded.";
 		

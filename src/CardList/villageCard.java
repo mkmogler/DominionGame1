@@ -1,15 +1,14 @@
 package CardList;
 
-public class chancellorCard extends Cards
+public class villageCard extends Cards
 {
 	private String description;
 
-	public chancellorCard()
+	public villageCard()
 	{
-	super(0,3,0,2);
-	description = " +2 Cards "
-				+ "/nYou may immediately put your deck into your discard pile.";
-		
+	super(2,3,0,0);
+	description = " +1 Cards."
+				+ "/n+2 Actions."; 	
 	}
 	public String getDescription()
 	{
