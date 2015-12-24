@@ -24,6 +24,6 @@ public class cellarCard extends Cards
 	@Override
 	public void doCardSpecificACtion()
 	{
-		System.out.println("Gold - " + super.getCost() + "+" + super.getAction() + " Actions");
+		System.out.println("Gold - " + super.getCost() + super.getAddedGold());
 	}
 }

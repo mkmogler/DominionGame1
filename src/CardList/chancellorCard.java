@@ -24,6 +24,6 @@ public class chancellorCard extends Cards
 	@Override
 	public void doCardSpecificACtion()
 	{
-		System.out.println("Gold - " + super.getCost());
+		System.out.println("Gold - " + super.getCost()+super.getAddedGold());
 	}
 }

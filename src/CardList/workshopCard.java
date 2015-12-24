@@ -1,14 +1,13 @@
 package CardList;
 
-public class chapelCard extends Cards
+public class workshopCard extends Cards
 {
 	private String description;
 
-	public chapelCard()
+	public workshopCard()
 	{
-	super(0,2,0,0);
-	description = "Trash up to 4 cards from your hand.";
-		
+	super(0,3,0,0);
+	description = "Gain a card costing up to $4."; 	
 	}
 	public String getDescription()
 	{
@@ -23,6 +22,6 @@ public class chapelCard extends Cards
 	@Override
 	public void doCardSpecificACtion()
 	{
-		System.out.println("Gold - " + super.getCost()+super.getAddedGold());
+		System.out.println("Gold - " + super.getCost());
 	}
 }

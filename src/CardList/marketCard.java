@@ -1,13 +1,16 @@
 package CardList;
 
-public class chapelCard extends Cards
+public class marketCard extends Cards
 {
 	private String description;
 
-	public chapelCard()
+	public marketCard()
 	{
-	super(0,2,0,0);
-	description = "Trash up to 4 cards from your hand.";
+	super(1,5,1,1);
+	description = "+1 Card,"
+				+ "/n+1 Action,"
+				+ "/n+1 Buy,"
+				+ "/n+$1.";
 		
 	}
 	public String getDescription()
