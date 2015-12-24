@@ -4,7 +4,7 @@ import java.util.ArrayList;
 //comment 1
 public class activeDeck 
 {
-	public static void ArrayList()
+	public static void main(String[]args)
 	{
 		ArrayList<Cards> ActiveDeck = new ArrayList<Cards>();
 		
