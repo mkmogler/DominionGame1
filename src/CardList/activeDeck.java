@@ -1,7 +1,6 @@
 package CardList;
 import java.util.ArrayList;
 
-//comment 1
 public class activeDeck 
 {
 	public static void main(String[]args)
