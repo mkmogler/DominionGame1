@@ -12,7 +12,7 @@ public class activeDeck
 		chapelCard card2 = new chapelCard();
 		
 
-		for(int x=1; x<10; x++)
+		for(int x=1; x<=10; x++)
 		{
 		 ActiveDeck.add(card1);
 		 ActiveDeck.add(card2);
