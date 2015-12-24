@@ -7,6 +7,15 @@ public class activeDeck
 	{
 		ArrayList<Cards> ActiveDeck = new ArrayList<Cards>();
 		
+		//Do we declare these array lists here? Where do we implement them?
+		ArrayList<Cards> player1Hand = new ArrayList<Cards>();
+		ArrayList<Cards> player2Hand = new ArrayList<Cards>();
+		ArrayList<Cards> player1Draw = new ArrayList<Cards>();
+		ArrayList<Cards> player2Draw = new ArrayList<Cards>();
+		ArrayList<Cards> player1Discard = new ArrayList<Cards>();
+		ArrayList<Cards> player2Discard = new ArrayList<Cards>();
+		
+		//create card objects that go into the active deck arrayList.
 		cellarCard card1 = new cellarCard();
 		chapelCard card2 = new chapelCard();
 		chancellorCard card3 = new chancellorCard();
@@ -18,6 +27,7 @@ public class activeDeck
 		woodcutterCard card9 = new woodcutterCard();
 		workshopCard card10 = new workshopCard();
 
+		//adds 10 of each card to the active deck.
 		for(int x=1; x<11; x++)
 		{
 		 ActiveDeck.add(card1);
@@ -36,6 +46,7 @@ public class activeDeck
 
 		for(int x=0; x< ActiveDeck.size(); x++)
 		{
+			//outputs one card per line.
 		 System.out.println(ActiveDeck.get(x));
 		}
 		System.out.println(ActiveDeck.size() + " cards in active deck.");
